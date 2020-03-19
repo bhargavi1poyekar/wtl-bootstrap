@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ShopIt</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		
+		<link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+		
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="container-fluid bg-dark header-top d-none d-md-block">
+			
+				<div class="row text-light pt-2 pb-2">
+					<div class="col-md-2">
+						<i class="far fa-envelope"></i></i> bhargavi.poyekar@spit.ac.in
+					</div>
+					<div class="col-md-5">
+						<form class="form-inline my-2 my-lg-0 input-group md-form form-sm form-2 pl-0">
+			       			<input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
+  							<div class="input-group-append">
+   								 <span class="input-group-text red lighten-3" id="basic-text1"><i class="fas fa-search text-grey" aria-hidden="true"></i></span>
+  							</div>
+			    		</form>
+					</div>
+					<div class="col-md-1" id="top">
+						<i class="far fa-user"></i> Account 
+					</div>
+					<div class="col-md-1" id="top">
+						<a href="cart.html"><i class="fas fa-cart-plus"style="font-size:24px" data-toggle="tooltip" data-placement="bottom" title="5 items in your cart"></i><span class='badge badge-warning' id='lblCartCount'> 5 </span> MyCart</a> 
+
+					</div>
+					
+					<div class="col-md-1" id="top">
+						<i class="fab fa-shopify"></i>Your<b> Orders</b>
+					</div>
+					<div class="col-md-1" id="top">
+						<i class="far fa-list-alt"></i></i> WishList
+					</div>
+					<div class="col-md-1" id="top">
+						<i class="fas fa-gift"></i> Gifts
+					</div>
+					
+				</div>
+			
+		</div>
+		<div class="container-fluid bg-black">
+			<nav class="container navbar navbar-expand-lg navbar-dark bg-black">
+			  <a class="navbar-brand" href="#">Bootstrap</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto">
+			      <li class="nav-item ">
+			        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+			      </li>
+
+			       <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Categories
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          <a class="dropdown-item" href="ele1.html">Electronics</a>
+			          <div class="dropdown-divider"></div>
+			          <a class="dropdown-item" href="#">Clothes</a>
+			          <div class="dropdown-divider"></div>
+			          <a class="dropdown-item" href="#">Furniture</a>
+			          <div class="dropdown-divider"></div>
+			          <a class="dropdown-item" href="#">Books</a>
+			        </div>
+			      </li>
+
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Today's Deals</a>
+			      </li>
+			     
+			      <li class="nav-item">
+			        <a class="nav-link " href="#">Customer Service</a>
+			      </li>
+
+			     
+			    </ul>
+			  </div>
+			</nav>
+		</div>
+
+		<div class="heading">
+			<h2>My Cart</h2>
+		</div>
+
+		<div class="container" id="table">
+		<table class="table table-bordered table-striped">
+		    <thead class="thead-dark">
+		      <tr class="head">
+		        <th>Name</th>
+		        <th>Image</th>
+		        <th>Price</th>
+		        <th>Buy</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr >
+		        <td>IndoPrime Men's Shirt</td>
+		        <td><img src="Images/Shirt1.jpg" height="150px"></td>
+		        <td>₹699.00</td>
+		        <td><button class="btn btn-success">Buy Now</button></td>
+		      </tr>
+		       <tr>
+		        <td>Bibaa Kurti</td>
+		        <td><img src="Images/Kurti1.jpeg" height="150px"></td>
+		        <td>₹899.00</td>
+		        <td><button class="btn btn-success">Buy Now</button></td>
+		      </tr>
+		         <tr>
+		        <td>Dennis Casual Shirt</td>
+		        <td><img src="Images/Shirt2.jpg" height="150px"></td>
+		        <td>₹899.00</td>
+		        <td><button class="btn btn-success">Buy Now</button></td>
+		      </tr>
+		       <tr>
+		        <td>Bas Cricket Bat's</td>
+		        <td><img src="Images/Sports1.jpg" height="150px"></td>
+		        <td>₹299.00</td>
+		        <td><button class="btn btn-success">Buy Now</button></td>
+		      </tr>
+		       <tr>
+		        <td>Sony Bluetooth Speaker</td>
+		        <td><img src="Images/trend3.jpg" height="150px"></td>
+		        <td>₹3999.00</td>
+		        <td><button class="btn btn-success">Buy Now</button></td>
+		      </tr>
+		    </tbody>
+		  </table>
+		</div>
+
+
+		<div class="pages">
+			<nav aria-label="Page navigation example">
+			  <ul class="pagination">
+			    <li class="page-item disabled">
+			      <a class="page-link" href="#" aria-label="Previous">
+			        <span aria-hidden="true">&laquo;</span>
+			        <span class="sr-only">Previous</span>
+			      </a>
+			    </li>
+			    <li class="page-item active" ><a class="page-link" href="#">1</a></li>
+			    <li class="page-item disabled"><a class="page-link" href="#">2</a></li>
+			    <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+			    <li class="page-item disabled">
+			      <a class="page-link" href="#" aria-label="Next">
+			        <span aria-hidden="true">&raquo;</span>
+			        <span class="sr-only">Next</span>
+			      </a>
+			    </li>
+			  </ul>
+			</nav>
+		</div>
+
+		<footer>
+			<div class="container-fluid bg-dark header-top d-none d-md-block">	
+				<div class="container" id="footer">
+					<div class="row">
+						<div class="col-lg-4 col-md-6">
+							<div class="footer-section">
+								<h4 class="title"><b>Bootstrap</b></h4>
+								<ul class="icons">
+									<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+									<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+									<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+									<li><a href="#"><i class="fab fa-pinterest-square"></i></a></li>
+								</ul>
+							</div><!-- footer-section -->
+						</div><!-- col-lg-4 col-md-6 -->
+
+						<div class="col-lg-4 col-md-6">
+								<div class="footer-section">
+								<h4 class="title"><b>CATEGORIES</b></h4>
+								<ul>
+									<li><a href="#">Electronics</a></li>
+									<li><a href="#">Clothes</a></li>
+									<li><a href="#">Furniture</a></li>
+									<li><a href="#">Books</a></li>
+									
+								</ul>
+							</div><!-- footer-section -->
+						</div><!-- col-lg-4 col-md-6 -->
+
+						<div class="col-lg-4 col-md-6">
+							<div class="footer-section">
+
+								<h4 class="title"><b>SUBSCRIBE</b></h4>
+								<div class="input-area">
+									<form>
+										<input class="email-input" type="text" placeholder="Enter your email">
+										<button class="submit-btn" type="submit"><i class="far fa-envelope"></i></button>
+									</form>
+								</div>
+							</div><!-- footer-section -->
+						</div><!-- col-lg-4 col-md-6 -->
+
+					</div><!-- row -->
+				</div><!-- container -->
+			</div>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		
+		
+	</body>
+</html>

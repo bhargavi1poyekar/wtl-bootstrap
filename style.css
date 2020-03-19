@@ -1,0 +1,292 @@
+
+@import url('https://fonts.googleapis.com/css?family=Aclonica|Berkshire+Swash|Boogaloo|Handlee|Kaushan+Script|Merienda|Merienda+One|Philosopher|Playball|Rancho&display=swap');
+
+.bg-black{background-color: rgba(14,14,14,1.00);
+	font-family: 'Merienda', cursive;
+}
+.bg-dark{
+	padding:1px;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 17px;
+}
+.carousel-caption{top:20px; right:1000px;}
+
+.dropdown-item:hover{
+	background-color: #d3d3d3;
+
+}
+
+#down h4{
+font-family: 'Merienda One', cursive;
+}
+
+#down h5,h6{
+font-family: 'Berkshire Swash', cursive;
+}
+
+h3{
+font-family: 'Boogaloo', cursive;
+}
+
+.bg-orange{background-color:#f0644f;
+color:aliceblue; 
+font-weight: 600;
+text-align:center;
+font-family: 'Kaushan Script', cursive;}
+
+.m-right{border:2px solid #f0644f;
+border-right:2px solid white;}
+
+.col-md{
+	text-align: center;
+}
+
+.underline{
+	width:100px;
+	height:2px;
+	background-color:orangered;
+}
+
+.bg-light-gray{
+	background-color: rgba(111,111,111,0.09)
+}
+
+.card{
+	text-align:center;
+}
+
+.text-light{
+	text-align: center;
+	top:50%;
+
+}
+
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+  background-color: #c67605;
+}
+#lblCartCount {
+    font-size: 12px;
+    background: #ff0000;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -10px; 
+}
+#top{
+
+	top:50%;
+	padding:2px;
+}
+
+
+#top:hover{
+background-color: #003366;
+border:1px dotted white;
+cursor:pointer; 
+ }
+
+.media img{max-width:120px;height:auto;}
+.underline-green{width:70px;height:2px;background-color: lawngreen}
+.underline-blue{width:70px;height:2px;background-color: blue}
+.underline-orange{width:70px;height:2px;background-color: orange}
+
+#Trending{
+	padding:10px;
+}
+
+#Trending h5{
+font-family: 'Rancho', cursive;
+}
+#Trending p{
+font-family: 'Philosopher', sans-serif;
+}
+
+#Trending h2,#Trending h4{
+font-family: 'Boogaloo', cursive;
+}
+
+.quick-view{
+	width:100%;
+	padding:10px 0;
+	text-align:center;
+	background-color: rgba(255,120,0,0.9);
+	
+	font-size:18px;
+	font-weight: bold;
+	color:#ffffff;
+	-webkit-transition:300ms;
+	font-family: 'Aclonica', sans-serif;
+		
+
+}
+
+.quick-view:hover{
+	background-color: rgba(190,120,0,0.9);
+	cursor:pointer;
+}
+
+.modal-dialog{
+	height:auto;
+	
+}
+.product-view{
+	padding:10px;
+	
+}
+.product-big-image{
+	width:45%;
+	height:auto;
+	display:inline-block;
+	float:left;
+}
+
+.product-big-image img{
+	width:100%;
+	border: 2px dashed #333;
+	height:auto;
+}
+.product-big-desc{
+	width:47%;
+	height:auto;
+	display:inline-block;
+	float:right;
+	padding-right:20px;
+}
+.modal-content  {
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    border-radius: 10px ; 
+    box-shadow: 0 5px 25px rgba(0,0,0.3);
+    border:1px solid #ff7800;
+    padding:20px;
+}
+
+.product-big-desc h2{
+	margin:0;
+	font-weight:normal;
+	padding-bottom: 10px:;
+
+}
+.product-big-desc h5{
+	color:#2a2a2a;
+	margin:0;
+	font-weight: lighter;
+	padding-bottom: :8px;
+	font-size:18px;
+}
+.product-big-desc h6{
+	width:100%;
+	float:left;
+	margin:0px;
+	padding-bottom: 15px;
+}
+.product-big-desc h6 a{
+	color: #b1b1b1;
+	font-size:16px;
+	margin-right:25px;
+	display: block;
+	float:left;
+	text-decoration: none;
+}
+
+.price{
+	width:100%;
+	float:left;
+	padding-bottom:10px;
+}
+
+#op{
+	font-size:24px;
+	margin:0px;
+	color:#a3a3a3;
+	border-bottom : 1px solid #333;
+
+}
+
+#off{
+	font-size:16px;
+	color:#ff7800;
+	font-weight:lighter;
+	font-style:italic;
+}
+
+.newprice{
+	font-size:28px;
+	margin:0px;
+	color:#333;
+	
+	width:auto;
+}
+
+abbr{
+	color:#ff7800;
+}
+
+#buy{
+	margin:0px;
+	text-align: center;
+}
+.p{
+	font-size:10px;
+}
+
+#footer{
+	padding:10px;
+
+}
+
+#footer h4,li,a{
+	color:white;
+}
+
+.navbar .breadcrumb-item + .breadcrumb-item::before {
+color: #bdbdbd; }
+.navbar .breadcrumb-item.active {
+color: #bdbdbd; }
+.navbar.no-content .breadcrumb-item + .breadcrumb-item::before {
+content: none; }
+
+.nav-item-last{
+	margin-left: 350px;
+	margin-top:25px;
+	
+}
+
+.pages{
+	margin-top:10px;
+	margin-left:45%;
+	text-align:center;
+}
+#active{
+	background-color: black;
+}
+
+.table{
+	margin:25px;
+	text-align:center;
+	font-family: 'Berkshire Swash', cursive;
+}
+
+
+.head{
+	vertical-align: middle;
+	font-family: 'Merienda One', cursive;
+}
+
+.heading{
+	text-align:center;
+	margin:10px;
+	font-family: 'Philosopher', sans-serif;
+	text-decoration: underline;
+
+}
+
